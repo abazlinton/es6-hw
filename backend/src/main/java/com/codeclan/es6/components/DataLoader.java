@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
+import com.codeclan.es6.models.Feature;
 
 @Component
 public class DataLoader implements ApplicationRunner {
@@ -13,18 +14,18 @@ public class DataLoader implements ApplicationRunner {
     FeatureRepository featureRepository;
 
     public void run(ApplicationArguments args){
-        com.codeclan.es6.models.Feature feature = new com.codeclan.es6.models.Feature();
+        Feature feature = new Feature();
 
         this.featureRepository.save(feature);
-        feature = new com.codeclan.es6.models.Feature();
+        feature = new Feature();
         this.featureRepository.save(feature);
-        feature = new com.codeclan.es6.models.Feature();
+        feature = new Feature();
         this.featureRepository.save(feature);
-        feature = new com.codeclan.es6.models.Feature();
+        feature = new Feature();
         this.featureRepository.save(feature);
-        feature = new com.codeclan.es6.models.Feature();
+        feature = new Feature();
         this.featureRepository.save(feature);
-        feature = new com.codeclan.es6.models.Feature();
+        feature = new Feature();
         this.featureRepository.save(feature);
 
     }
