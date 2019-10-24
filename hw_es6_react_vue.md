@@ -1,4 +1,4 @@
-# Homework: ES6 Classes
+# Homework: ES6 Features + refactor
 
 ### Learning Objectives
 - Be able to understand Class syntax
