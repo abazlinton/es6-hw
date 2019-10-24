@@ -1,3 +1,7 @@
+// description property taken from MDN docs at corresponding MDNLink
+// Creative Commons Attribution-ShareAlike license (CC-BY-SA) http://creativecommons.org/licenses/by-sa/2.5/
+
+
 const FeaturesData = [
   {
     name: "destructuring",
