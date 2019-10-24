@@ -3,9 +3,8 @@ import('./FeaturesList.css');
 
 const FeaturesList = ({ features }) => {
 
-  const featuresLists = features.map((
-    { name, description, MDNLink, isImplemented, implementations }
-    , index) => {
+  const featuresLists = features.map((feature, index) => {
+    const {name, description, MDNLink, isImplemented, implementations} = feature
     return (
     <ul key={index}>
       <li>
