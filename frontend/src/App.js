@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import './App.css';
-import FeaturesList from './FeaturesList'
+const FeaturesList = require('./FeaturesList')
+const FeatureData = require('./FeatureData')
 
 class App extends Component {
 
@@ -12,9 +12,7 @@ class App extends Component {
   }
 
   componentDidMount(){
-    fetch('http://localhost:8080/features')
-      .then(res => res.json())
-      .then(data => this.setState({ features: data._embedded.features }))
+    this.setState({features: FeatureData})
   }
 
   render(){
