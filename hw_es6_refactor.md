@@ -13,7 +13,7 @@
 
 There are a some language features that were introduced with ECMAScript 2015 (ES6) that we haven't looked at yet. These features are used to when writing React idiomatically. 
 
-Your tasks (detailed after the break): 
+### Your tasks (detailed after the break): 
 
 - Read the MDN documentation highlighted below for these features (Classes, Import and Export, and Destructuring).
 
