@@ -31,14 +31,14 @@ To run the React application:
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 
-Read and try and understand the `class` and `extends` syntax used in the React App - `App.js`
+- Read and try and understand the `class` and `extends` syntax used in the React App - `App.js`
 
 #### Import & Export
 
 - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 - [https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export)
 
-Replace the `module.exports` and `require`s with the default exports and imports.
+- Replace the `module.exports` and `require`s with the default exports and imports.
 
 Relevent files: `App.js`, `FeaturesList.js`
 
@@ -46,13 +46,13 @@ Relevent files: `App.js`, `FeaturesList.js`
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Object_destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Object_destructuring)
 
-Refactor the `FeaturesList.js` Functional Component to destructure the `features` passed into the `FeaturesList` function. 
+- Refactor the `FeaturesList.js` Functional Component to destructure the `features` passed into the `FeaturesList` function. 
 
-Refactor the `props.features` to the destructured `features`.
+- Refactor the `props.features` to the destructured `features`.
 
-Refactor the function body passed to `map` to destructure `feature` into local variables `name, description, MDNLink, isImplemented, implementations`
+- Refactor the function body passed to `map` to destructure `feature` into local variables `name, description, MDNLink, isImplemented, implementations`
 
-Use these local variables in the HTML returned from the `FeaturesList` function (so for example `feature.name` becomes `name`)
+- Use these local variables in the HTML returned from the `FeaturesList` function (so for example `feature.name` becomes `name`)
 
 ### Transpilers
 
