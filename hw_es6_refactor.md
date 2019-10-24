@@ -37,6 +37,8 @@ To run the React applications:
 
 ---
 
+## MVP
+
 #### Classes
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
@@ -61,6 +63,8 @@ To run the React applications:
 - At the start of the anonymous function body passed to `map` - destructure `feature` into local variables `name, description, MDNLink, isImplemented, implementations`
 
 - Use these local variables in the HTML returned from the `FeaturesList` anonymous function (so for example `feature.name` would become `name`)
+
+## Extension
 
 ### Transpilers
 
