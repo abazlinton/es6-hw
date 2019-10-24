@@ -1,10 +1,10 @@
-const FeatureData = [
+const FeaturesData = [
   {
     name: "destructuring",
     description: "The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.",
     MDNLink: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Object_destructuring",
     isFullyImplemented: false,
-    implementations: "FeaturesList.js (props) - Document section - 'Unpacking fields from objects passed as function parameter'"
+    implementations: "FeaturesList.js (props) - NB: Document section - 'Unpacking fields from objects passed as function parameter'"
   },
   {
     name: "class and extends",
@@ -30,4 +30,4 @@ const FeatureData = [
 
 ]
 
-module.exports = FeatureData
+module.exports = FeaturesData

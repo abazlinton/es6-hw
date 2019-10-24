@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 const FeaturesList = require('./FeaturesList')
-const FeatureData = require('./FeatureData')
+const FeaturesData = require('./FeaturesData')
 
 class App extends Component {
 
@@ -12,7 +12,7 @@ class App extends Component {
   }
 
   componentDidMount(){
-    this.setState({features: FeatureData})
+    this.setState({features: FeaturesData})
   }
 
   render(){
