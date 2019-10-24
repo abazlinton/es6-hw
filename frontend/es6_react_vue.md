@@ -28,6 +28,8 @@ To run the React applications:
 
 #### Keep reading...
 
+---
+
 #### Classes
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
