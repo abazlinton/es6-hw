@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1>vue_es6_comparison</h1>
     <features-list :features="features"/>
   </div>
 </template>

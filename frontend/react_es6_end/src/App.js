@@ -18,6 +18,7 @@ class App extends Component {
   render(){
     return (
       <div className="App">
+        <h1>react_es6_end</h1>
         <FeaturesList
           features={this.state.features}
         > 
