@@ -1,4 +1,4 @@
-# Homework: es6 Classes
+# Homework: ES6 Classes
 
 ### Learning Objectives
 - Be able to understand Class syntax
