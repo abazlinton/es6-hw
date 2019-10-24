@@ -11,7 +11,7 @@
 
 ### ES6 Language Features
 
-There are a some language features that were introduced with ECMAScript 2015 (ES6) that we haven't looked at that. These features are used to when writing React idiomatically. Your task is to read the MDN documentation for these features (Classes, Import and Export, and Destructuring).
+There are a some language features that were introduced with ECMAScript 2015 (ES6) that we haven't looked at yet. These features are used to when writing React idiomatically. Your task is to read the MDN documentation for these features (Classes, Import and Export, and Destructuring).
 
 And then you're going to refactor a React app [react_es6_start](./react_es6_start) following the instructions below.
 
