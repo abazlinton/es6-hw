@@ -17,7 +17,7 @@ And then you're going to refactor a React app [react_es6_start](./react_es6_star
 
 If you get stuck there's an endpoint [react_es6_end](./end)
 
-Also, to help you understand what the React app is doing, there's the same app implemented in Vue (the data displayed is slightly different) [vue_es6_comparison](./vue_es6_comparison)
+Also, to help you understand what the React app is doing, there's the same app implemented in Vue [vue_es6_comparison](./vue_es6_comparison)
 
 #### Getting started:
 
