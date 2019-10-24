@@ -4,7 +4,7 @@
 - Be able to understand Class syntax
 - Be able to use `import` and `export` syntax
 - Be able to use object destructuring
-- Be able to compare a React app to the same app implemented in Vue to aid our understanding
+- Be able to compare a React app to the same app implemented in Vue to aid your understanding
 - Understand what a transpiler, such as Babel, is useful for
 
 ## Brief
