@@ -4,7 +4,7 @@ import('./FeaturesList.css');
 const FeaturesList = ({ features }) => {
 
   const featuresLists = features.map((
-    { name, description, MDNLink, isFullyImplemented, implementations }
+    { name, description, MDNLink, isImplemented, implementations }
     , index) => {
     return (
     <ul key={index}>
@@ -12,7 +12,8 @@ const FeaturesList = ({ features }) => {
         <h3>{name}</h3>
         <p>{description}</p>
         <a href={MDNLink}>Documentation 📖</a>
-        <h5>{isFullyImplemented ? "Fully Implemented ✅": "Please implement me here 👇"}</h5>
+        <h5>Implemented? {isImplemented ? "✅": "❌"}</h5>
+        <p>Possible Implementations:</p> 
         <p><code>{implementations}</code></p>
       </li>
     </ul>

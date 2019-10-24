@@ -1,12 +1,13 @@
 <template>
   <div class="hello">
-    <ul v-for="({name, description, isFullyImplemented, implementations}, index) in features" :key="index">
+    <ul v-for="(feature, index) in features" :key="index">
       <li>
-        <h3>{{name}}</h3>
-        <p>{{description}}</p>
-        <a href="MDNLink">Documentation 📖</a>
-        <h5>{{isFullyImplemented ? "Fully Implemented ✅": "Please implement me here 👇"}}</h5>
-        <p><code>{{implementations}}</code></p>
+        <h3>{{ feature.name }}</h3>
+        <p>{{ feature.description }}</p>
+        <a :href="feature.MDNLink">📖 Documentation</a>
+        <h5>Implemented? {{ feature.isImplemented ? "✅": "❌"}}</h5>
+        <p>Implementations:</p> 
+        <p><code>{{ feature.implementations }}</code></p>
       </li>
     </ul>
   </div>
