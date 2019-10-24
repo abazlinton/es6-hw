@@ -14,14 +14,14 @@ There are a some language features that were introduced with ECMAScript 2015 (ES
 
 We've made a React app [](./react_es6_start) which is not using these features everywhere it could do. We're going to refactor it following the instructions below.
 
-Getting started:
+#### Getting started:
 
 To run the React application:
 
 - Install dependencies: `npm install`
 - Start the dev server, and load in Chrome `npm start`
 
-Keep reading...
+#### Keep reading...
 
 #### Classes
 
