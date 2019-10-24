@@ -48,11 +48,11 @@ Relevent files: `App.js`, `FeaturesList.js`
 
 - Refactor the `FeaturesList.js` Functional Component to destructure the `features` passed into the `FeaturesList` function. 
 
-- Refactor the `props.features` to the destructured `features`.
+- Refactor `props.features` to the destructured `features`.
 
 - Refactor the function body passed to `map` to destructure `feature` into local variables `name, description, MDNLink, isImplemented, implementations`
 
-- Use these local variables in the HTML returned from the `FeaturesList` function (so for example `feature.name` becomes `name`)
+- Use these local variables in the HTML returned from the `FeaturesList` function (so for example `feature.name` would become `name`)
 
 ### Transpilers
 
