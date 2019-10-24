@@ -15,11 +15,11 @@ There are a some language features that were introduced with ECMAScript 2015 (ES
 
 ### Your tasks: 
 
-- (MVP) Read the MDN documentation highlighted below for these features (Classes, Import and Export, and Destructuring).
+- Read the MDN documentation highlighted below for these features (Classes, Import and Export, and Destructuring).
 
-- (MVP) Refactor a React app [react_es6_start](./react_es6_start) following the instructions below.
+- Refactor a React app [react_es6_start](./react_es6_start) following the instructions below.
 
-- (Extenstion) Read about and try a transpiler
+- Read about and try a transpiler
 
 If you get stuck there's an endpoint [react_es6_end](./react_es6_end)
 
@@ -64,7 +64,7 @@ To run the React applications:
 
 - Use these local variables in the HTML returned from the `FeaturesList` anonymous function (so for example `feature.name` would become `name`)
 
-## Extension
+## Extensions
 
 ### Transpilers
 
