@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+const React = require('react');
 const FeaturesList = require('./FeaturesList')
 const FeaturesData = require('./FeaturesData')
 
-class App extends Component {
+class App extends React.Component {
 
   constructor(props){
     super(props)
