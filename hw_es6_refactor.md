@@ -56,7 +56,7 @@ To run the React applications:
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Object_destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Object_destructuring)
 
-- Refactor the FeaturesList Functional Component in `FeaturesList.js` to destructure the `features` passed in as an argument.
+- Refactor the `FeaturesList` Functional Component in `FeaturesList.js` to destructure the `features` passed in as an argument.
 
 - Refactor `props.features` to the destructured `features`.
 
