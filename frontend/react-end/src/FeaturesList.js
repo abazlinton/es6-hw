@@ -13,8 +13,7 @@ const FeaturesList = ({ features }) => {
         <p>{description}</p>
         <a href={MDNLink}>Documentation 📖</a>
         <h5>{isFullyImplemented ? "Fully Implemented ✅": "Please implement me here 👇"}</h5>
-        <code>{implementations}</code>
-        <p></p>
+        <p><code>{implementations}</code></p>
       </li>
     </ul>
     )
