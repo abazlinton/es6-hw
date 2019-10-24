@@ -15,7 +15,7 @@ There are a some language features that were introduced with ECMAScript 2015 (ES
 
 And then you're going to refactor a React app [react_es6_start](./react_es6_start) following the instructions below.
 
-If you get stuck there's an endpoint [react_es6_end](./end)
+If you get stuck there's an endpoint [react_es6_end](./react_es6_end)
 
 Also, to help you understand what the React app is doing, there's the same app implemented in Vue [vue_es6_comparison](./vue_es6_comparison)
 
