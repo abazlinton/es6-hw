@@ -20,7 +20,7 @@ Also, to help you understand what the React app is doing, there's the same app i
 
 #### Getting started:
 
-To run the React application:
+To run the React applications:
 
 - Install dependencies: `npm install`
 - Start the dev server, and load in Chrome `npm start`
