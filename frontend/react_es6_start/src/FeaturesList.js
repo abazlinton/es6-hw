@@ -9,7 +9,7 @@ const FeaturesList = (props) => {
       <li>
         <h3>{feature.name}</h3>
         <p>{feature.description}</p>
-        <a href={feature.MDNLink}>Documentation 📖</a>
+        <a href={feature.MDNLink}>📖Documentation</a>
         <h5>Implemented? {feature.isImplemented ? "✅": "❌"}</h5>
         <p>Possible Implementations:</p> 
         <p><code>{feature.implementations}</code></p>
