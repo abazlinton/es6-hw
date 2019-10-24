@@ -29,6 +29,7 @@ Also, to help you understand what the React app is doing, there's the same app i
 
 To run the React applications:
 
+- In each project root
 - Install dependencies: `npm install`
 - Start the dev server, and load in Chrome `npm start`
 
