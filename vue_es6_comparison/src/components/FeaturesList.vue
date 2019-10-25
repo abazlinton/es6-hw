@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div>
     <ul v-for="(feature, index) in features" :key="index">
       <li>
         <h3>{{ feature.name }}</h3>
