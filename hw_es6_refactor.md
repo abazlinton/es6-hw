@@ -56,9 +56,9 @@ To run the React applications:
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Object_destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Object_destructuring)
 
-- Refactor the `FeaturesList` Functional Component in `FeaturesList.js` to destructure the `features` passed in as an argument.
+- Refactor the `FeaturesList` Functional Component in `FeaturesList.js` to destructure `features` from the props.
 
-- Refactor `props.features` to the destructured `features`.
+- Refactor `props.features` to `features`.
 
 - At the start of the anonymous function body passed to `map` - destructure `feature` into local variables `name, description, MDNLink, isImplemented, implementations`
 
