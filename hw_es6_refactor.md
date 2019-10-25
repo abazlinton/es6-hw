@@ -50,7 +50,7 @@ To run the React applications:
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 [https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export)
 
-- Replace the `module.exports` and `require`s with the default exports and imports in `App.js` and `FeaturesList.js`
+- Replace the `module.exports` and `require`s with the default exports and imports in `App.js` and `FeaturesList.js`, `FeaturesData.js`
 
 #### Object Destructuring
 
