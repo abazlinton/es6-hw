@@ -34,4 +34,4 @@ const FeaturesData = [
 
 ]
 
-module.exports = FeaturesData
+export default FeaturesData
